@@ -1,0 +1,134 @@
+/* ________________________Reset all defaults setting____________________ */
+Body {
+  font-family: 'Noto Sans HK',
+    sans-serif;
+  color: rgb(34, 34, 34);
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: rgb(34, 34, 34);
+}
+
+ul {
+  margin-top: 32px;
+}
+
+ul li {
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+ul li:nth-child(even) {
+  background: rgba(65, 19, 117, 0.158);
+}
+
+ul li:hover {
+  background: rgb(240, 171, 22);
+}
+
+h1 {
+  padding: 10px;
+}
+
+/* ________________________________Utility class__________________________ */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.font-Kaushan {
+  font-family: 'Kaushan Script',
+    cursive
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-secondary {
+  color: rgb(255, 208, 0);
+}
+
+.float-left {
+  float: left;
+}
+
+/* _______________________________Header________________________________ */
+header#main-header {
+  height: 10%;
+  background: rgba(65, 19, 117, 0.726);
+}
+
+header#main-header h1 {
+  padding-top: 7px;
+}
+
+/* ____________________________________Body________________________________ */
+section#body {
+  height: 80%;
+}
+
+section#body h4 {
+  color: #fff;
+  padding: 8px;
+  background-color: rgb(240, 171, 22);
+  position: fixed;
+  top: 60px;
+  width: 20%;
+  left: 0;
+}
+
+/* Navigation bar */
+section#body .navigation-bar {
+  width: 20%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Main content */
+section#body .main-content {
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+section#body .main-content .container {
+  height: 100%;
+  padding: 10px;
+  text-align: justify;
+  box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.521);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Empty space */
+section#body .empty-space {
+  width: 20%;
+  height: 100%;
+}
+
+/* ______________________________Footer_____________________________ */
+footer#main-footer {
+  height: 10%;
+  text-align: center;
+  background: rgba(65, 19, 117, 0.726);
+  color: #fff;
+}
+
+footer#main-footer p {
+  padding-top: 17px;
+}
